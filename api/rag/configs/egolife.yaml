@@ -21,4 +21,4 @@ apis:
 
 # Base settings
 base:
-  data_dir: data/egolife
+  data_dir: /home/intern/youngseo/Ego-R1/api/rag/data/egolife

@@ -42,6 +42,7 @@ class APIManager:
         self._kill_process_on_port(port)
 
         # Prepare log file paths
+        log_dir = data_dir 
         day_log = log_dir /f"{api_name}_{identity}"/ f"{api_name}_{identity}_1day.json"
         hour_log = log_dir /f"{api_name}_{identity}"/ f"{api_name}_{identity}_1hour.json"
         min_log = log_dir / f"{api_name}_{identity}"/f"{api_name}_{identity}_10min.json"

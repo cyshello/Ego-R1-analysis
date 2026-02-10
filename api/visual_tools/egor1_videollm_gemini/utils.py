@@ -92,7 +92,7 @@ def config_videos(
     file_paths: List[str],
     start_timestamp: str,
     end_timestamp: str,
-    cache_dir: str | None = None,
+    cache_dir: str,
     downsample_fps: int = 1,
     resize: bool = True,
 ) -> Tuple[str, float]:

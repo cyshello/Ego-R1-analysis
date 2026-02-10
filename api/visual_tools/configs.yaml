@@ -1,12 +1,12 @@
 
 egolife:
   videollm:
-    gemini_api_keys: ["your-gemini-api-key-1", "your-gemini-api-key-2","..."]
-    data_dir: "/path/to/egolife"
+    gemini_api_keys: [""]
+    data_dir: "/home/intern/youngseo/Ego-R1/api/rag/data/egolife"
     gemini_port: 8060
     llava_port: 8010
   vlm:
-    data_dir: "/path/to/egolife"
+    data_dir: "/home/intern/youngseo/Ego-R1/api/rag/data/egolife"
     vlm_port: 8080
 
 videomme:
