@@ -2,8 +2,8 @@ import os
 import time
 import base64
 from typing import Optional
-from openai import AzureOpenAI
-import requests 
+from openai import AzureOpenAI, OpenAI
+import requests
 import re
 def strip_code_fences(text: str) -> str:
     text = text.strip()
