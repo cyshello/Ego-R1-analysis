@@ -24,3 +24,4 @@ api/hmguo/NVIDIA-Linux-x86_64-*.run
 api/hmguo/fastrag/database/JAKE/*.pkl
 Search_R1/tmp
 api/
+api/visual_tools/configs.yaml

@@ -4,6 +4,7 @@ from pydantic import BaseModel
 from typing import List, Optional, Union
 from r1rag.ragagent import RagAgent
 import uvicorn
+import traceback
 
 app = FastAPI(title="RAG API", description="API for querying RAG system at different time levels")
 
@@ -41,6 +42,8 @@ async def query(request: QueryRequest):
         )
         return QueryResponse(response=response)
     except Exception as e:
+        print("Error during query processing:")
+        print(traceback.format_exc())
         raise HTTPException(status_code=500, detail=str(e))
     
 def start_server(host: str = "0.0.0.0", port: int = 8006):
