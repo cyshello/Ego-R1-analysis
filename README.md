@@ -4,3 +4,4 @@ original github : https://github.com/egolife-ai/Ego-R1?tab=readme-ov-file#-insta
 
 # What have I done
 - added client selection logic, now we can chose whether to use AzureOpenAI or OpenAI.
+- added simple test script for RAG search, now we can test only RAG search solely.
